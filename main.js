@@ -1,12 +1,17 @@
-function moreThan5() {
+function moreThan5(num) {
+  return num>5
 
 }
 
-function topScore() {
+function topScore(num1,num2) {
+  return num1>num2
+
+  
   
 }
 
-function isInDanger() {
+function isInDanger(num) {
+  return num 
 
 }
 
