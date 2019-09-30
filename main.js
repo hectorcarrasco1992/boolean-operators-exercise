@@ -11,35 +11,42 @@ function topScore(num1,num2) {
 }
 
 function isInDanger(num) {
-  return num 
+  return num >= 60 && num <=71;
 
 }
 
-function isCoasting() {
+function isCoasting(num) {
+  return num >= 72 && num <= 83;
 
 }
 
-function isSucceeding() {
+function isSucceeding(num) {
+  return num >=84 && num<=92;
 
 }
 
-function isFailing() {
+function isFailing(num) {
+  return num < 60;
 
 }
 
-function isAcing() {
+function isAcing(num) {
+  return num >92;
 
 }
 
-function isStudent() {
+function isStudent(str) {
+  return str === "student"
 
 }
 
-function isTeacher() {
+function isTeacher(str) {
+  return str === "teacher"
 
 }
 
-function isAdmin() {
+function isAdmin(str) {
+  return str ===
 
 }
 
