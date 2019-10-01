@@ -46,23 +46,30 @@ function isTeacher(str) {
 }
 
 function isAdmin(str) {
-  return str ===
+  return str === "admin"
 
 }
 
-function isElementary() {
+function isElementary(str) {
+  return str === 'elementary'
 
 }
 
-function notAnElementarySchoolAdministrator() {
-
+function isMiddleSchoolTeacher(str,num1) {
+  return str === "teacher" && num1 >=6 && num1 <=8;
+  
 }
 
-function isMiddleSchoolTeacher() {
 
+function notAnElementarySchoolAdministrator(str,str1) {
+return str !== 'elementary' || str1 !== 'admin'
+  
+  
+  
 }
 
-function differentPeople() {
+function differentPeople(name,name1) {
+  return name === name1
 
 }
 
